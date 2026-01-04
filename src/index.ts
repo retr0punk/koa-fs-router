@@ -35,7 +35,7 @@ export const fsRouter = (root: string): Middleware => {
     const fnName = getFunctionName(ctx.method);
     const fn = module[fnName];
 
-    if (fn && typeof fn === "function")
+    if (typeof fn === "function")
       return fn(Object.assign(ctx, { params: match.params }), next);
 
     ctx.status = 405;
