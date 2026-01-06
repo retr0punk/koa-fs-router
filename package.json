@@ -1,5 +1,5 @@
 {
-  "name": "@subhxsh/koa-fs-router",
+  "name": "@retr0punk/koa-fs-router",
   "version": "0.0.1",
   "description": "Next.js style file-system based router middleware for Koa",
   "keywords": [
@@ -10,7 +10,7 @@
     "middleware",
     "typescript"
   ],
-  "repository": "subhxsh/koa-fs-router",
+  "repository": "retr0punk/koa-fs-router",
   "license": "MIT",
   "author": "Veer Balla",
   "type": "module",
